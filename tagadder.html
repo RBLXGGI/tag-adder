@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+<h1>RBLX GGI: Tag Index Generator</h1>
+<p>This tool is used to add tags to the tag index.</p>
+
+<p id="log" style="color: red;">Loading...</p>
+
+<fieldset style="width: fit-content;">
+	<legend>Generate Tag:</legend>
+	<label>Group</label><br>
+	<input id="input_group" type="text"><br>
+	<label>Tag Name</label><br>
+	<input id="input_name" type="text"><br>
+	<label>Tag Description</label><br>
+	<input id="input_desc" type="text"><br>
+	<button onclick="button_generate()">Generate</button>
+</fieldset>
+
+<p>Tag Object</p>
+<textarea id="textarea_tag">
+...
+</textarea>
+
+<p>Tag Array</p>
+<textarea id="textarea_array">
+...
+</textarea>
+
+<p>Tag Index</p>
+
+<textarea style="height: 1000px; width: 100%;" id="textarea_index">
+...
+</textarea>
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<script src="tagadder.js"></script>
+
+</body>
+
+</html>
